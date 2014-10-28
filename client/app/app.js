@@ -5,11 +5,11 @@ angular.module('pulpApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
-])
-  .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+  'ui.bootstrap',
+  'angular-redactor'
+]).config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider
-      .otherwise('/');
-
+        .otherwise('/');
+    //redactorOptions.buttons = ['formatting', '|', 'bold', 'italic'];
     $locationProvider.html5Mode(true);
-  });
+});
