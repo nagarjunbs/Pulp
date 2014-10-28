@@ -1,7 +1,7 @@
 Pulp
 ====
 
-Pulp is a web based unified interface for authors of novels so they can keep track of charecters, events, dialogues and character development.
+Pulp is a web based unified interface for authors of novels so they can keep track of charecters, events, dialogues and character development.  
 
 ###Building Pulp
 
